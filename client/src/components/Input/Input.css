@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600,700,800,900&display=swap');
+
+.form {
+    display: flex;
+    border-top: 1px solid #D3D3D3;
+}
+  
+.input {
+    border: none;
+    border-radius: 0 0 0 5px;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em;
+}
+  
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+  
+.sendButton {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    background: #7e62eb;
+    padding: 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 0 0 5px 0;
+    width: 20%;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background: #7619db;
+}
